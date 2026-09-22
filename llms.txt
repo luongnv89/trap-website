@@ -1,0 +1,25 @@
+# Trap / Cạm Bẫy
+
+> Factual linked summary for retrieval systems. This file is a concise reference, not a guarantee of AI ranking or citation.
+
+## Canonical pages
+
+- English landing page: https://luongnv.com/trap-website/
+- Vietnamese landing page: https://luongnv.com/trap-website/vi/
+- Development source: https://github.com/nguyenvanlamm/cam_bay
+
+## Verified game facts
+
+- Trap (Cạm Bẫy) is a hidden-trap platformer about a small robot escaping a scrap factory.
+- The current design has 12 levels across three acts: Scrap Yard, Maintenance Halls, and The Grinder.
+- There are 13 trap types. Discovered traps remain marked after death; armed traps reset.
+- Batteries are both score and currency, capped at 9 charge. Checkpoints latch charge and found-count progress.
+- Scan costs 1 battery and reveals hidden traps within a 5.5-cell radius.
+- EMP costs 2 batteries and freezes nearby mechanisms within 5 cells for 2.6 seconds. Passive geometry remains dangerous.
+- Every level except the first uses a power core to unlock the true exit. Pulling it starts the crusher escape phase.
+- Touch controls use move buttons on the left, jump on the right, and Scan/EMP beside jump. Jump height can be shortened by releasing early.
+- The game is planned for Android and iOS. Google Play and Apple App Store listings are both coming soon; no public store download URLs or release date are claimed here.
+
+## Site notes
+
+The hero artwork and social card are original illustrations, not gameplay screenshots. The site has English and Vietnamese pages, no analytics, no cookies, and no third-party trackers. Content should be updated only from verified project sources.

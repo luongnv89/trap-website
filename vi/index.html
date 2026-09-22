@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trap — Nhà máy chỉ đánh lừa bạn một lần.</title>
+  <meta name="description" content="Trap là game platformer bẫy ẩn về một robot nhỏ tìm đường thoát khỏi nhà máy phế liệu. Đọc căn phòng, dùng pin khôn ngoan và chạy một mạch về đích.">
+  <meta name="theme-color" content="#070a0f">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://luongnv.com/trap-website/vi/">
+  <link rel="alternate" hreflang="en" href="https://luongnv.com/trap-website/">
+  <link rel="alternate" hreflang="vi" href="https://luongnv.com/trap-website/vi/">
+  <link rel="alternate" hreflang="x-default" href="https://luongnv.com/trap-website/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Trap / Cạm Bẫy">
+  <meta property="og:title" content="Trap — Nhà máy chỉ đánh lừa bạn một lần.">
+  <meta property="og:description" content="Game platformer bẫy ẩn về một robot nhỏ tìm đường thoát khỏi nhà máy phế liệu.">
+  <meta property="og:url" content="https://luongnv.com/trap-website/vi/">
+  <meta property="og:image" content="https://luongnv.com/trap-website/assets/social-card.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Một robot màu hổ phách đối mặt nhà máy phế liệu tối trong Trap.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Trap — Nhà máy chỉ đánh lừa bạn một lần.">
+  <meta name="twitter:description" content="Game platformer bẫy ẩn về một robot nhỏ tìm đường thoát khỏi nhà máy phế liệu.">
+  <meta name="twitter:image" content="https://luongnv.com/trap-website/assets/social-card.png">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoGame",
+    "@id": "https://luongnv.com/trap-website/#game",
+    "name": "Trap",
+    "alternateName": "Cạm Bẫy",
+    "description": "Game platformer bẫy ẩn về một robot nhỏ tìm đường thoát khỏi nhà máy phế liệu. Bẫy lộ ra qua trải nghiệm, còn Scan và EMP biến pin thành khoảng thở.",
+    "url": "https://luongnv.com/trap-website/vi/",
+    "image": "https://luongnv.com/trap-website/assets/social-card.png",
+    "genre": ["Platformer", "Puzzle"],
+    "gamePlatform": ["Android", "iOS"],
+    "operatingSystem": ["Android", "iOS"],
+    "applicationCategory": "Game",
+    "inLanguage": ["en", "vi"],
+    "sameAs": "https://github.com/nguyenvanlamm/cam_bay"
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Đến nội dung</a>
+  <header class="site-header">
+    <div class="wrap nav-shell">
+      <a class="brand" href="./" aria-label="Trang chủ Trap">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="brand-word"><strong>TRAP</strong><small>CẠM BẪY</small></span>
+      </a>
+      <nav class="primary-nav" aria-label="Điều hướng chính">
+        <a href="#world">Luật chơi</a>
+        <a href="#skills">Kỹ năng</a>
+        <a href="#how-to-play">Cách chơi</a>
+        <a href="#faq">Hỏi đáp</a>
+      </nav>
+      <a class="language-link" href="../index.html" lang="en">English <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> Platformer bẫy ẩn <span class="eyebrow-dot" aria-hidden="true">·</span> Android + iOS</p>
+        <h1 id="hero-title">Nhà máy <em>chỉ đánh lừa bạn một lần.</em></h1>
+        <p class="hero-lede">Một robot nhỏ. Một nhà máy phế liệu được dựng để đánh lừa bạn. Đọc căn phòng, dùng pin khôn ngoan và biến mỗi lần thất bại thành bản đồ về nhà.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#how-to-play">Khám phá game <span aria-hidden="true">↘</span></a>
+          <a class="quiet-link" href="#release">Tình trạng phát hành <span aria-hidden="true">↗</span></a>
+        </div>
+        <p class="hero-footnote"><span class="status-dot" aria-hidden="true"></span> Đang phát triển · sắp có trên các cửa hàng</p>
+      </div>
+
+      <figure class="hero-art">
+        <div class="art-frame">
+          <div class="art-label"><span>CẢNH 00</span><span>BÃI PHẾ LIỆU / CA ĐÊM</span></div>
+          <svg id="trap-scene" viewBox="0 0 720 520" role="img" aria-labelledby="scene-title scene-desc" xmlns="http://www.w3.org/2000/svg">
+            <title id="scene-title">Một robot hổ phách trước cửa nhà máy phế liệu</title>
+            <desc id="scene-desc">Minh họa biên tập nguyên bản: một robot nhỏ đứng trước băng chuyền, máy móc treo và lối ra tối của nhà máy. Scan có thể đánh dấu những mối nguy im lặng trong cảnh.</desc>
+            <defs>
+              <linearGradient id="scene-sky" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#182333"/>
+                <stop offset="1" stop-color="#0b1018"/>
+              </linearGradient>
+              <linearGradient id="scene-floor" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0" stop-color="#273444"/>
+                <stop offset="1" stop-color="#111923"/>
+              </linearGradient>
+              <linearGradient id="robot-shell" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#ffd080"/>
+                <stop offset="0.5" stop-color="#ffb347"/>
+                <stop offset="1" stop-color="#bf6e20"/>
+              </linearGradient>
+              <linearGradient id="steel-beam" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0" stop-color="#718198"/>
+                <stop offset="0.5" stop-color="#c3ccd9"/>
+                <stop offset="1" stop-color="#445367"/>
+              </linearGradient>
+              <radialGradient id="lamp" cx="0.5" cy="0.5" r="0.5">
+                <stop offset="0" stop-color="#ffdf8c" stop-opacity=".95"/>
+                <stop offset="1" stop-color="#ffb347" stop-opacity="0"/>
+              </radialGradient>
+              <pattern id="scene-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+                <path d="M32 0H0V32" fill="none" stroke="#a8bed7" stroke-opacity=".07"/>
+              </pattern>
+              <filter id="soft-glow" x="-100%" y="-100%" width="300%" height="300%">
+                <feGaussianBlur stdDeviation="7"/>
+              </filter>
+              <filter id="tight-glow" x="-100%" y="-100%" width="300%" height="300%">
+                <feGaussianBlur stdDeviation="2"/>
+              </filter>
+            </defs>
+            <rect width="720" height="520" fill="url(#scene-sky)"/>
+            <rect width="720" height="520" fill="url(#scene-grid)"/>
+            <circle cx="113" cy="116" r="100" fill="url(#lamp)" opacity=".2"/>
+            <path d="M0 341L68 295 137 320 205 263 277 310 351 257 423 306 490 241 566 291 637 236 720 271V410H0Z" fill="#151f2b"/>
+            <path d="M0 361L83 320 149 345 216 300 288 331 362 292 434 333 504 278 574 316 649 272 720 302V410H0Z" fill="#1b2837"/>
+            <path d="M0 390H720V520H0Z" fill="url(#scene-floor)"/>
+            <path d="M0 405H720" stroke="#7e91a7" stroke-opacity=".35"/>
+            <path d="M0 444H720M0 484H720" stroke="#9eb0c4" stroke-opacity=".12"/>
+            <path d="M66 390L10 520M188 390L155 520M320 390L313 520M461 390L483 520M598 390L650 520" stroke="#b9c7d7" stroke-opacity=".14" stroke-width="2"/>
+
+            <g opacity=".9">
+              <path d="M40 90V25H330V90" fill="none" stroke="#4a5d73" stroke-width="12"/>
+              <path d="M40 48H330M92 25V90M155 25V90M218 25V90M281 25V90" stroke="#91a2b6" stroke-opacity=".6" stroke-width="3"/>
+              <path d="M41 90H328" stroke="#c3ccd9" stroke-opacity=".75" stroke-width="4"/>
+              <rect x="64" y="104" width="117" height="9" rx="4" fill="#53677f"/>
+              <circle cx="91" cy="109" r="8" fill="#ffb347"/><circle cx="151" cy="109" r="8" fill="#4ade80"/>
+            </g>
+
+            <g>
+              <path d="M430 83V25H685V83" fill="none" stroke="#5e7186" stroke-width="10"/>
+              <path d="M457 25V83M515 25V83M574 25V83M633 25V83" stroke="#aebdcb" stroke-opacity=".5" stroke-width="3"/>
+              <path d="M431 84H684" stroke="#c3ccd9" stroke-opacity=".75" stroke-width="4"/>
+              <path d="M472 84V176M611 84V137" stroke="#596d82" stroke-width="5"/>
+              <path d="M454 173H491L507 201H437Z" fill="#424f60" stroke="#adbacc" stroke-width="3"/>
+              <path d="M593 134H629L642 158H580Z" fill="#424f60" stroke="#adbacc" stroke-width="3"/>
+            </g>
+
+            <g class="factory-door">
+              <path d="M507 238V119H671V238" fill="#080d14" stroke="#667b91" stroke-width="8"/>
+              <path d="M531 219V141H647V219" fill="#0f1823" stroke="#263746" stroke-width="3"/>
+              <path d="M548 141V219M571 141V219M594 141V219M617 141V219" stroke="#263746" stroke-width="2"/>
+              <path d="M533 129H648" stroke="#ffb347" stroke-opacity=".7" stroke-width="3"/>
+              <circle cx="650" cy="126" r="13" fill="#ef4444" opacity=".28" filter="url(#tight-glow)"/>
+              <circle cx="650" cy="126" r="5" fill="#ef4444"/>
+            </g>
+
+            <g class="crane" opacity=".95">
+              <path d="M380 112V303M380 112H544" stroke="#7b8ea2" stroke-width="7"/>
+              <path d="M401 112V302" stroke="#c3ccd9" stroke-opacity=".55" stroke-width="2"/>
+              <path d="M518 112V185" stroke="#aebdcb" stroke-width="3" stroke-dasharray="7 7"/>
+              <path d="M495 185H540L518 223Z" fill="#ffb347" stroke="#8f632c" stroke-width="3"/>
+              <path d="M504 181V163M531 181V163" stroke="#ffb347" stroke-width="4"/>
+            </g>
+
+            <g class="conveyor">
+              <path d="M18 338H278L350 391H0Z" fill="#263646" stroke="#8799ab" stroke-width="4"/>
+              <path d="M18 351H278L326 387H21Z" fill="#0d141d"/>
+              <path d="M51 350L94 385M108 350L151 385M165 350L208 385M222 350L265 385" stroke="#657991" stroke-width="5"/>
+              <circle cx="31" cy="394" r="18" fill="#101821" stroke="#8799ab" stroke-width="5"/>
+              <circle cx="320" cy="399" r="18" fill="#101821" stroke="#8799ab" stroke-width="5"/>
+              <path d="M30 394H321" stroke="#c3ccd9" stroke-opacity=".3" stroke-width="2"/>
+            </g>
+
+            <g class="power-core">
+              <circle cx="611" cy="344" r="34" fill="#fff1b8" opacity=".17" filter="url(#soft-glow)"/>
+              <path d="M611 315L626 337L616 337L624 360L597 335L607 335Z" fill="#fff1b8" stroke="#ffb347" stroke-width="3"/>
+              <circle cx="611" cy="344" r="34" fill="none" stroke="#ffb347" stroke-opacity=".55" stroke-width="2" stroke-dasharray="4 7"/>
+            </g>
+
+            <g class="rail-hazard">
+              <path d="M351 398L373 365L395 398L417 365L439 398L461 365L483 398" fill="none" stroke="#75869a" stroke-width="8"/>
+              <path d="M351 398L373 365L395 398L417 365L439 398L461 365L483 398" fill="none" stroke="#d1dae4" stroke-opacity=".7" stroke-width="2"/>
+            </g>
+
+            <g class="robot" transform="translate(370 301)">
+              <ellipse cx="42" cy="101" rx="43" ry="8" fill="#05080c" opacity=".6"/>
+              <path d="M12 42H72L78 86Q42 103 6 86Z" fill="url(#robot-shell)" stroke="#ffcf83" stroke-width="3"/>
+              <path d="M17 47H67V72H17Z" fill="#202b38" stroke="#8c9bad" stroke-width="2"/>
+              <circle cx="31" cy="59" r="5" fill="#55d7e8"/><circle cx="53" cy="59" r="5" fill="#55d7e8"/>
+              <path d="M24 79H60" stroke="#51361e" stroke-width="3" stroke-linecap="round"/>
+              <path d="M9 51L-7 62M75 51L91 62" stroke="#ffb347" stroke-width="9" stroke-linecap="round"/>
+              <path d="M22 87L14 106M62 87L71 106" stroke="#bf7626" stroke-width="10" stroke-linecap="round"/>
+              <path d="M31 42V27M54 42V27" stroke="#ffb347" stroke-width="5"/>
+              <circle cx="31" cy="24" r="6" fill="#ffb347" stroke="#ffda9b" stroke-width="2"/>
+              <circle cx="54" cy="24" r="6" fill="#ffb347" stroke="#ffda9b" stroke-width="2"/>
+              <path d="M18 38Q42 48 66 38" fill="none" stroke="#ffe0a8" stroke-opacity=".65" stroke-width="2"/>
+            </g>
+
+            <g class="trap-mark" aria-hidden="true">
+              <g transform="translate(195 374)">
+                <circle r="23" fill="#38bdf8" fill-opacity=".13" stroke="#38bdf8" stroke-width="2" stroke-dasharray="3 5"/>
+                <path d="M-8 -8L8 8M8 -8L-8 8" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+              </g>
+              <g transform="translate(457 355)">
+                <circle r="23" fill="#38bdf8" fill-opacity=".13" stroke="#38bdf8" stroke-width="2" stroke-dasharray="3 5"/>
+                <path d="M-8 -8L8 8M8 -8L-8 8" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+              </g>
+              <g transform="translate(527 264)">
+                <circle r="23" fill="#38bdf8" fill-opacity=".13" stroke="#38bdf8" stroke-width="2" stroke-dasharray="3 5"/>
+                <path d="M-8 -8L8 8M8 -8L-8 8" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+              </g>
+            </g>
+
+            <path d="M34 430H155" stroke="#ffb347" stroke-width="2" stroke-opacity=".45"/>
+            <text x="34" y="453" fill="#c3ccd9" fill-opacity=".72" font-family="monospace" font-size="12" letter-spacing="2">KHÔNG BẢN ĐỒ. KHÔNG KHOAN NHƯỢNG.</text>
+            <text x="585" y="453" fill="#38bdf8" fill-opacity=".7" font-family="monospace" font-size="11" letter-spacing="1">TÍN HIỆU / IM LẶNG</text>
+          </svg>
+          <div class="scan-control">
+            <button id="scan-toggle" class="scan-button" type="button" aria-controls="trap-scene" aria-pressed="false"><span class="scan-icon" aria-hidden="true">+</span><span>Quét minh họa</span></button>
+            <p id="scan-status" class="scan-status" role="status" aria-live="polite">Bản xem trước tùy chọn: các mối nguy đang im lặng.</p>
+          </div>
+        </div>
+        <figcaption><strong>Minh họa / không phải ảnh chụp lối chơi</strong> Diễn giải nguyên bản về cuộc trốn thoát khỏi nhà máy phế liệu của Trap. Chạm Quét để lộ các dấu hiệu im lặng trong cảnh giới thiệu này.</figcaption>
+        <noscript><p class="no-script-note">Bản xem trước Quét cần JavaScript; câu chuyện và cơ chế game vẫn có đầy đủ bên dưới.</p></noscript>
+      </figure>
+    </section>
+
+    <section class="section rule-section wrap" id="world" aria-labelledby="rule-title">
+      <div class="section-intro split-intro">
+        <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> Luật chơi</p>
+        <div>
+          <h2 id="rule-title">Mỗi cái chết<br><em>để lại một bản đồ.</em></h2>
+          <p class="section-lede">Bẫy giấu ngay trước mắt và bật lên đúng lúc bạn thấy chắc chắn. Một lần chạy hỏng không đưa bạn về con số không: bẫy đã phát hiện vẫn được đánh dấu sau khi chết, để nhà máy dần trở nên dễ đọc.</p>
+        </div>
+      </div>
+      <dl class="fact-rail" aria-label="Cấu trúc game">
+        <div><dt>12</dt><dd>màn chơi</dd></div>
+        <div><dt>03</dt><dd>hồi</dd></div>
+        <div><dt>13</dt><dd>loại bẫy</dd></div>
+        <div><dt>09</dt><dd>pin tối đa</dd></div>
+      </dl>
+      <div class="story-grid">
+        <article class="story-card story-card-large">
+          <p class="card-index">01 / ĐỌC CĂN PHÒNG</p>
+          <h3>Mặt sàn cũng có thể là một câu hỏi.</h3>
+          <p>Sàn giả trông an toàn cho đến khi sức nặng cho nó lý do để biến mất. Một cục pin có thể là quà—hoặc mồi đánh thức máy móc quanh đó. Hãy nhìn thứ chuyển động, nhớ thứ đã ra tay, và biến tò mò thành một lộ trình.</p>
+          <div class="card-rule" aria-hidden="true"><span></span><span></span><span></span></div>
+        </article>
+        <article class="story-card story-card-accent">
+          <p class="card-index">02 / THỰC HIỆN ĐƯỜNG CHẠY</p>
+          <h3>Kiến thức là cú tăng tốc của bạn.</h3>
+          <p>Trạm checkpoint giữ lại lượng pin và số pin đã tìm. Không thể farm một cục pin qua nhiều mạng. Cuộc trốn thoát sạch sẽ đến từ việc nhớ căn phòng—không phải áp đảo nó.</p>
+          <a class="inline-link" href="#how-to-play">Xem vòng lặp <span aria-hidden="true">↘</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills" aria-labelledby="skills-title">
+      <div class="wrap">
+        <div class="section-intro split-intro">
+          <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> Kinh tế pin</p>
+          <div>
+            <h2 id="skills-title">Khoảng thở của bạn<br><em>có giá của nó.</em></h2>
+            <p class="section-lede">Pin vừa là điểm vừa là tiền. Dùng một cục để hỏi căn phòng. Dùng hai cục để khiến một cơ chế nín thở.</p>
+          </div>
+        </div>
+        <div class="skill-grid">
+          <article class="skill-card scan-card">
+            <div class="skill-top"><span class="skill-number">01</span><span class="skill-tag">1 pin</span></div>
+            <div class="skill-symbol" aria-hidden="true">⌁</div>
+            <h3>Scan</h3>
+            <p>Lộ bẫy ẩn trong bán kính 5,5 ô. Dấu đánh dấu còn lại sau khi bạn chết, biến cú bất ngờ bất công thành ký ức hữu ích.</p>
+            <div class="skill-meter" aria-label="Giá: một pin"><i></i><i class="empty"></i><i class="empty"></i><i class="empty"></i></div>
+            <p class="skill-note">Cố ý rẻ · hỏi trước khi dấn bước</p>
+          </article>
+          <article class="skill-card emp-card">
+            <div class="skill-top"><span class="skill-number">02</span><span class="skill-tag">2 pin</span></div>
+            <div class="skill-symbol" aria-hidden="true">◌</div>
+            <h3>EMP</h3>
+            <p>Đóng băng cơ chế trong 5 ô suốt 2,6 giây. Gai bật rút xuống, nòng lao im tiếng và đồng hồ sàn mục dừng lại.</p>
+            <div class="skill-meter" aria-label="Giá: hai pin"><i></i><i></i><i class="empty"></i><i class="empty"></i></div>
+            <p class="skill-note">Địa hình thụ động vẫn chết người · chọn đúng khe</p>
+          </article>
+        </div>
+        <p class="skill-footnote"><span class="tiny-cross" aria-hidden="true">×</span> Pin tối đa là 9. Checkpoint chốt lượng pin và số pin đã tìm; không thể farm checkpoint qua nhiều mạng.</p>
+      </div>
+    </section>
+
+    <section class="section acts-section wrap" aria-labelledby="acts-title">
+      <div class="acts-heading">
+        <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> Nhà máy qua ba hồi</p>
+        <h2 id="acts-title">Lối thoát,<br><em>từng mảnh một.</em></h2>
+      </div>
+      <div class="act-list">
+        <article class="act-row">
+          <div class="act-no">01</div><div class="act-name"><h3>Bãi phế liệu</h3><p>Đọc ngôn ngữ của mồi nhử, sàn giả và những sai lầm đầu tiên.</p></div><div class="act-mark" aria-hidden="true">↗</div>
+        </article>
+        <article class="act-row">
+          <div class="act-no">02</div><div class="act-name"><h3>Hành lang bảo trì</h3><p>Mang ký ức vào những căn phòng hẹp hơn và nhịp khó hơn.</p></div><div class="act-mark" aria-hidden="true">↗</div>
+        </article>
+        <article class="act-row">
+          <div class="act-no">03</div><div class="act-name"><h3>Máy nghiền</h3><p>Kéo lõi năng lượng, bật báo động, rồi chạy bằng những gì đã học.</p></div><div class="act-mark" aria-hidden="true">↗</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section how-section" id="how-to-play" aria-labelledby="how-title">
+      <div class="wrap">
+        <div class="section-intro split-intro">
+          <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> Cách chơi</p>
+          <div>
+            <h2 id="how-title">Chậm lại.<br><em>Rồi chạy.</em></h2>
+            <p class="section-lede">Hai nút di chuyển ở bên trái. Nút nhảy ở bên phải. Scan và EMP nằm cạnh đó. Giữ nút nhảy để bật cao hơn; nhả sớm để nhảy ngắn.</p>
+          </div>
+        </div>
+        <div class="play-layout">
+          <ol class="play-steps">
+            <li><span class="step-no">01</span><div><h3>Quan sát</h3><p>Nhớ nơi bẫy vừa kích hoạt, hoặc dùng Quét trước khi đi tiếp. Bẫy ẩn trông giống hệt cảnh vật vô hại.</p></div></li>
+            <li><span class="step-no">02</span><div><h3>Lựa chọn</h3><p>Dùng một pin để quét rủi ro, hoặc hai pin để đóng băng cả cụm. Năng lượng là quyết định, không phải đồ trang trí.</p></div></li>
+            <li><span class="step-no">03</span><div><h3>Dấn bước</h3><p>Đi qua lộ trình bạn đã giành được. Sau lõi năng lượng, chần chừ sẽ cho máy nghiền thời gian áp sát.</p></div></li>
+          </ol>
+          <aside class="control-panel" aria-label="Điều khiển cảm ứng">
+            <p class="card-index">BỐ CỤC CẢM ỨNG / DI ĐỘNG</p>
+            <div class="control-map">
+              <div class="control-cluster left-cluster"><span class="control-key">←</span><span class="control-key">→</span><small>di chuyển</small></div>
+              <div class="control-cluster right-cluster"><span class="control-key jump-key">↑</span><span class="control-key skill-key">⌁</span><span class="control-key skill-key">◌</span><small>nhảy · kỹ năng</small></div>
+            </div>
+            <p class="control-note">Chết sẽ đưa bạn về checkpoint gần nhất đã chạm. Bẫy đã phát hiện vẫn được ghi nhớ.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section release-section wrap" id="release" aria-labelledby="release-title">
+      <div class="release-copy">
+        <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> Tình trạng phát hành</p>
+        <h2 id="release-title">Cánh cửa<br><em>chưa mở.</em></h2>
+        <p>Trap sắp có trên Google Play và Apple App Store. Theo dõi quá trình phát triển trong lúc chúng tôi chuẩn bị bản phát hành di động.</p>
+      </div>
+      <div class="store-list" aria-label="Tình trạng cửa hàng">
+        <div class="store-row"><span class="store-icon" aria-hidden="true">▶</span><div><strong>Google Play</strong><small>Bản phát hành Android</small></div><span class="store-status">Sắp có</span></div>
+        <div class="store-row"><span class="store-icon apple-icon" aria-hidden="true">●</span><div><strong>Apple App Store</strong><small>Bản phát hành iOS</small></div><span class="store-status">Sắp có</span></div>
+        <p class="store-note">Liên kết tải xuống sẽ xuất hiện tại đây khi trò chơi có mặt trên các cửa hàng.</p>
+      </div>
+    </section>
+
+    <section class="section faq-section wrap" id="faq" aria-labelledby="faq-title">
+      <div class="faq-head"><p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> Câu hỏi trước khi báo động</p><h2 id="faq-title">Thường xuyên<br><em>chưa chắc.</em></h2></div>
+      <div class="faq-list">
+        <details open><summary><span>Trap là gì?</span><b aria-hidden="true">+</b></summary><p>Trap là game platformer bẫy ẩn về một robot nhỏ tìm đường thoát khỏi nhà máy phế liệu. Căn phòng được thiết kế để bất ngờ bạn một lần, rồi thưởng cho khả năng ghi nhớ.</p></details>
+        <details><summary><span>Game có bao nhiêu nội dung?</span><b aria-hidden="true">+</b></summary><p>Thiết kế hiện tại có 12 màn qua ba hồi: Bãi phế liệu, Hành lang bảo trì và Máy nghiền. Có 13 loại bẫy cùng ba mục tiêu thử thách ở mỗi màn.</p></details>
+        <details><summary><span>Điều gì xảy ra khi tôi dính bẫy?</span><b aria-hidden="true">+</b></summary><p>Bạn hồi sinh tại checkpoint gần nhất đã chạm. Bẫy từng ra tay để lại dấu mờ ở nơi nó ẩn nấp, và phát hiện đó tồn tại sau cái chết.</p></details>
+        <details><summary><span>Khi nào nên dùng Scan hoặc EMP?</span><b aria-hidden="true">+</b></summary><p>Scan tốn một pin và lộ bẫy ẩn trong 5,5 ô. EMP tốn hai pin và đóng băng cơ chế gần đó trong 2,6 giây. Địa hình thụ động—như bãi gai lộ thiên—vẫn nguy hiểm.</p></details>
+        <details><summary><span>Khi nào có thể chơi?</span><b aria-hidden="true">+</b></summary><p>Trap đang được phát triển. Game dự kiến có trên Android và iOS; cả Google Play lẫn Apple App Store đều đang ở trạng thái sắp có. Chưa công bố ngày phát hành.</p></details>
+      </div>
+    </section>
+
+    <section class="closing-cta wrap" aria-labelledby="closing-title">
+      <div class="closing-rule" aria-hidden="true"><span></span><span></span><span></span></div>
+      <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> Giữ đèn sáng</p>
+      <h2 id="closing-title">Nhà máy ghi nhớ.<br><em>Bạn cũng nên vậy.</em></h2>
+      <p>Theo dõi hành trình phát triển, đọc mã nguồn, và quay lại khi cánh cửa sẵn sàng.</p>
+      <a class="button button-primary" href="https://github.com/nguyenvanlamm/cam_bay" rel="noopener">Theo dõi phát triển <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand footer-brand" href="./" aria-label="Trang chủ Trap"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span class="brand-word"><strong>TRAP</strong><small>CẠM BẪY</small></span></a><p>Đọc căn phòng. Thực hiện đường chạy.</p></div>
+      <div class="footer-links"><a href="#world">Luật chơi</a><a href="#how-to-play">Cách chơi</a><a href="#faq">Hỏi đáp</a><a href="../index.html" lang="en">English</a></div>
+      <p class="copyright">© Trap / Cạm Bẫy · Trang dự án tĩnh</p>
+    </div>
+  </footer>
+  <script src="../script.js" defer></script>
+</body>
+</html>

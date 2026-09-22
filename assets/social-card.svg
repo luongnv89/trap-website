@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#111923"/>
+      <stop offset="1" stop-color="#070a0f"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ffd080"/>
+      <stop offset=".55" stop-color="#ffb347"/>
+      <stop offset="1" stop-color="#b86920"/>
+    </linearGradient>
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M50 0H0V50" fill="none" stroke="#c3ccd9" stroke-opacity=".08"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="13"/></filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="975" cy="180" r="120" fill="#ffb347" opacity=".16" filter="url(#glow)"/>
+  <path d="M0 438L130 348 257 392 365 307 482 383 610 301 742 375 867 272 1003 352 1120 285 1200 326V630H0Z" fill="#141f2b"/>
+  <path d="M0 480H1200V630H0Z" fill="#1b2837"/>
+  <path d="M0 505H1200M0 566H1200" stroke="#c3ccd9" stroke-opacity=".14" stroke-width="2"/>
+  <path d="M90 480L38 630M295 480L273 630M510 480L512 630M718 480L751 630M940 480L1002 630" stroke="#c3ccd9" stroke-opacity=".12" stroke-width="3"/>
+  <g opacity=".95">
+    <path d="M698 235V77H1138V235" fill="none" stroke="#556b82" stroke-width="18"/>
+    <path d="M742 77V235M832 77V235M922 77V235M1012 77V235M1102 77V235" stroke="#b9c7d7" stroke-opacity=".52" stroke-width="5"/>
+    <path d="M701 237H1136" stroke="#c3ccd9" stroke-opacity=".7" stroke-width="7"/>
+    <path d="M775 237V425H1054V237" fill="#080d14" stroke="#667b91" stroke-width="10"/>
+    <path d="M813 278V389H1017V278" fill="#101923" stroke="#293b4d" stroke-width="4"/>
+    <path d="M847 278V389M884 278V389M921 278V389M958 278V389" stroke="#2e4051" stroke-width="3"/>
+    <path d="M819 261H1014" stroke="#ffb347" stroke-opacity=".75" stroke-width="4"/>
+  </g>
+  <g opacity=".9">
+    <path d="M44 242V70H610V242" fill="none" stroke="#43566c" stroke-width="19"/>
+    <path d="M44 120H610M135 70V242M246 70V242M357 70V242M468 70V242" stroke="#9eafc1" stroke-opacity=".46" stroke-width="5"/>
+    <path d="M44 244H610" stroke="#c3ccd9" stroke-opacity=".7" stroke-width="7"/>
+    <circle cx="113" cy="275" r="11" fill="#ffb347"/><circle cx="181" cy="275" r="11" fill="#4ade80"/>
+  </g>
+  <g>
+    <path d="M580 227V445M580 227H783" stroke="#8093a7" stroke-width="10"/>
+    <path d="M621 227V445" stroke="#d6dee7" stroke-opacity=".43" stroke-width="3"/>
+    <path d="M738 227V308" stroke="#aebdcb" stroke-width="4" stroke-dasharray="11 11"/>
+    <path d="M704 308H772L738 364Z" fill="#ffb347" stroke="#875e2b" stroke-width="4"/>
+  </g>
+  <g>
+    <path d="M0 415H435L532 481H0Z" fill="#263646" stroke="#8799ab" stroke-width="6"/>
+    <path d="M0 436H424L492 477H0Z" fill="#0d141d"/>
+    <path d="M63 437L116 477M144 437L197 477M225 437L278 477M306 437L359 477" stroke="#71869c" stroke-width="8"/>
+  </g>
+  <g transform="translate(455 338)">
+    <ellipse cx="57" cy="130" rx="63" ry="11" fill="#05080c" opacity=".65"/>
+    <path d="M15 51H98L105 108Q56 131 7 108Z" fill="url(#amber)" stroke="#ffcf83" stroke-width="4"/>
+    <path d="M22 57H92V87H22Z" fill="#202b38" stroke="#9baabc" stroke-width="3"/>
+    <circle cx="42" cy="73" r="7" fill="#55d7e8"/><circle cx="72" cy="73" r="7" fill="#55d7e8"/>
+    <path d="M34 96H80" stroke="#51361e" stroke-width="4" stroke-linecap="round"/>
+    <path d="M12 63L-10 77M101 63L123 77" stroke="#ffb347" stroke-width="12" stroke-linecap="round"/>
+    <path d="M30 110L21 135M81 110L91 135" stroke="#bf7626" stroke-width="14" stroke-linecap="round"/>
+    <path d="M42 51V29M72 51V29" stroke="#ffb347" stroke-width="7"/>
+    <circle cx="42" cy="25" r="8" fill="#ffb347" stroke="#ffda9b" stroke-width="3"/>
+    <circle cx="72" cy="25" r="8" fill="#ffb347" stroke="#ffda9b" stroke-width="3"/>
+  </g>
+  <g fill="none" stroke="#38bdf8" stroke-width="3" opacity=".9">
+    <circle cx="358" cy="478" r="30" stroke-dasharray="5 8"/><path d="M347 467L369 489M369 467L347 489"/>
+    <circle cx="696" cy="455" r="30" stroke-dasharray="5 8"/><path d="M685 444L707 466M707 444L685 466"/>
+  </g>
+  <path d="M66 510H309" stroke="#ffb347" stroke-width="3" stroke-opacity=".6"/>
+  <text x="66" y="137" fill="#ffb347" font-family="Arial Narrow, Arial, sans-serif" font-size="29" font-weight="700" letter-spacing="7">TRAP / CẠM BẪY</text>
+  <text x="66" y="197" fill="#eef3f7" font-family="Arial Narrow, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-2">THE FACTORY</text>
+  <text x="66" y="252" fill="#ffb347" font-family="Georgia, serif" font-size="58" font-style="italic">only fools you once.</text>
+  <text x="66" y="559" fill="#c3ccd9" fill-opacity=".73" font-family="monospace" font-size="17" letter-spacing="3">A HIDDEN-TRAP PLATFORMER</text>
+  <text x="1068" y="559" fill="#38bdf8" fill-opacity=".85" font-family="monospace" font-size="16" text-anchor="end" letter-spacing="2">ANDROID · iOS</text>
+</svg>

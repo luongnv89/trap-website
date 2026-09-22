@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trap — The factory only fools you once.</title>
+  <meta name="description" content="Trap is a hidden-trap platformer about a small robot escaping a scrap factory. Learn the room, spend your batteries, and make the clean run.">
+  <meta name="theme-color" content="#070a0f">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://luongnv.com/trap-website/">
+  <link rel="alternate" hreflang="en" href="https://luongnv.com/trap-website/">
+  <link rel="alternate" hreflang="vi" href="https://luongnv.com/trap-website/vi/">
+  <link rel="alternate" hreflang="x-default" href="https://luongnv.com/trap-website/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Trap / Cạm Bẫy">
+  <meta property="og:title" content="Trap — The factory only fools you once.">
+  <meta property="og:description" content="A hidden-trap platformer about a small robot escaping a scrap factory.">
+  <meta property="og:url" content="https://luongnv.com/trap-website/">
+  <meta property="og:image" content="https://luongnv.com/trap-website/assets/social-card.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="An amber robot facing a dark scrap factory in Trap.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Trap — The factory only fools you once.">
+  <meta name="twitter:description" content="A hidden-trap platformer about a small robot escaping a scrap factory.">
+  <meta name="twitter:image" content="https://luongnv.com/trap-website/assets/social-card.png">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoGame",
+    "@id": "https://luongnv.com/trap-website/#game",
+    "name": "Trap",
+    "alternateName": "Cạm Bẫy",
+    "description": "A hidden-trap platformer about a small robot escaping a scrap factory. Traps reveal themselves through play, while Scan and EMP turn batteries into a margin for error.",
+    "url": "https://luongnv.com/trap-website/",
+    "image": "https://luongnv.com/trap-website/assets/social-card.png",
+    "genre": ["Platformer", "Puzzle"],
+    "gamePlatform": ["Android", "iOS"],
+    "operatingSystem": ["Android", "iOS"],
+    "applicationCategory": "Game",
+    "inLanguage": ["en", "vi"],
+    "sameAs": "https://github.com/nguyenvanlamm/cam_bay"
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap nav-shell">
+      <a class="brand" href="./" aria-label="Trap home">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="brand-word"><strong>TRAP</strong><small>CẠM BẪY</small></span>
+      </a>
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a href="#world">The rule</a>
+        <a href="#skills">Skills</a>
+        <a href="#how-to-play">How to play</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a class="language-link" href="vi/index.html" lang="vi">Tiếng Việt <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> Hidden-trap platformer <span class="eyebrow-dot" aria-hidden="true">·</span> Android + iOS</p>
+        <h1 id="hero-title">The factory <em>only fools you once.</em></h1>
+        <p class="hero-lede">A small robot. A scrap factory built to mislead you. Read the room, spend your batteries, and turn every failed run into a route home.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#how-to-play">Explore the game <span aria-hidden="true">↘</span></a>
+          <a class="quiet-link" href="#release">Release status <span aria-hidden="true">↗</span></a>
+        </div>
+        <p class="hero-footnote"><span class="status-dot" aria-hidden="true"></span> In development · stores are coming soon</p>
+      </div>
+
+      <figure class="hero-art">
+        <div class="art-frame">
+          <div class="art-label"><span>SCENE 00</span><span>SCRAP YARD / NIGHT SHIFT</span></div>
+          <svg id="trap-scene" viewBox="0 0 720 520" role="img" aria-labelledby="scene-title scene-desc" xmlns="http://www.w3.org/2000/svg">
+            <title id="scene-title">An amber robot at the mouth of a scrap factory</title>
+            <desc id="scene-desc">An original editorial illustration of a small robot standing before conveyors, hanging machinery and a dark factory exit. Scan can mark the quiet hazards hidden in the scene.</desc>
+            <defs>
+              <linearGradient id="scene-sky" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#182333"/>
+                <stop offset="1" stop-color="#0b1018"/>
+              </linearGradient>
+              <linearGradient id="scene-floor" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0" stop-color="#273444"/>
+                <stop offset="1" stop-color="#111923"/>
+              </linearGradient>
+              <linearGradient id="robot-shell" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#ffd080"/>
+                <stop offset="0.5" stop-color="#ffb347"/>
+                <stop offset="1" stop-color="#bf6e20"/>
+              </linearGradient>
+              <linearGradient id="steel-beam" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0" stop-color="#718198"/>
+                <stop offset="0.5" stop-color="#c3ccd9"/>
+                <stop offset="1" stop-color="#445367"/>
+              </linearGradient>
+              <radialGradient id="lamp" cx="0.5" cy="0.5" r="0.5">
+                <stop offset="0" stop-color="#ffdf8c" stop-opacity=".95"/>
+                <stop offset="1" stop-color="#ffb347" stop-opacity="0"/>
+              </radialGradient>
+              <pattern id="scene-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+                <path d="M32 0H0V32" fill="none" stroke="#a8bed7" stroke-opacity=".07"/>
+              </pattern>
+              <filter id="soft-glow" x="-100%" y="-100%" width="300%" height="300%">
+                <feGaussianBlur stdDeviation="7"/>
+              </filter>
+              <filter id="tight-glow" x="-100%" y="-100%" width="300%" height="300%">
+                <feGaussianBlur stdDeviation="2"/>
+              </filter>
+            </defs>
+            <rect width="720" height="520" fill="url(#scene-sky)"/>
+            <rect width="720" height="520" fill="url(#scene-grid)"/>
+            <circle cx="113" cy="116" r="100" fill="url(#lamp)" opacity=".2"/>
+            <path d="M0 341L68 295 137 320 205 263 277 310 351 257 423 306 490 241 566 291 637 236 720 271V410H0Z" fill="#151f2b"/>
+            <path d="M0 361L83 320 149 345 216 300 288 331 362 292 434 333 504 278 574 316 649 272 720 302V410H0Z" fill="#1b2837"/>
+            <path d="M0 390H720V520H0Z" fill="url(#scene-floor)"/>
+            <path d="M0 405H720" stroke="#7e91a7" stroke-opacity=".35"/>
+            <path d="M0 444H720M0 484H720" stroke="#9eb0c4" stroke-opacity=".12"/>
+            <path d="M66 390L10 520M188 390L155 520M320 390L313 520M461 390L483 520M598 390L650 520" stroke="#b9c7d7" stroke-opacity=".14" stroke-width="2"/>
+
+            <g opacity=".9">
+              <path d="M40 90V25H330V90" fill="none" stroke="#4a5d73" stroke-width="12"/>
+              <path d="M40 48H330M92 25V90M155 25V90M218 25V90M281 25V90" stroke="#91a2b6" stroke-opacity=".6" stroke-width="3"/>
+              <path d="M41 90H328" stroke="#c3ccd9" stroke-opacity=".75" stroke-width="4"/>
+              <rect x="64" y="104" width="117" height="9" rx="4" fill="#53677f"/>
+              <circle cx="91" cy="109" r="8" fill="#ffb347"/><circle cx="151" cy="109" r="8" fill="#4ade80"/>
+            </g>
+
+            <g>
+              <path d="M430 83V25H685V83" fill="none" stroke="#5e7186" stroke-width="10"/>
+              <path d="M457 25V83M515 25V83M574 25V83M633 25V83" stroke="#aebdcb" stroke-opacity=".5" stroke-width="3"/>
+              <path d="M431 84H684" stroke="#c3ccd9" stroke-opacity=".75" stroke-width="4"/>
+              <path d="M472 84V176M611 84V137" stroke="#596d82" stroke-width="5"/>
+              <path d="M454 173H491L507 201H437Z" fill="#424f60" stroke="#adbacc" stroke-width="3"/>
+              <path d="M593 134H629L642 158H580Z" fill="#424f60" stroke="#adbacc" stroke-width="3"/>
+            </g>
+
+            <g class="factory-door">
+              <path d="M507 238V119H671V238" fill="#080d14" stroke="#667b91" stroke-width="8"/>
+              <path d="M531 219V141H647V219" fill="#0f1823" stroke="#263746" stroke-width="3"/>
+              <path d="M548 141V219M571 141V219M594 141V219M617 141V219" stroke="#263746" stroke-width="2"/>
+              <path d="M533 129H648" stroke="#ffb347" stroke-opacity=".7" stroke-width="3"/>
+              <circle cx="650" cy="126" r="13" fill="#ef4444" opacity=".28" filter="url(#tight-glow)"/>
+              <circle cx="650" cy="126" r="5" fill="#ef4444"/>
+            </g>
+
+            <g class="crane" opacity=".95">
+              <path d="M380 112V303M380 112H544" stroke="#7b8ea2" stroke-width="7"/>
+              <path d="M401 112V302" stroke="#c3ccd9" stroke-opacity=".55" stroke-width="2"/>
+              <path d="M518 112V185" stroke="#aebdcb" stroke-width="3" stroke-dasharray="7 7"/>
+              <path d="M495 185H540L518 223Z" fill="#ffb347" stroke="#8f632c" stroke-width="3"/>
+              <path d="M504 181V163M531 181V163" stroke="#ffb347" stroke-width="4"/>
+            </g>
+
+            <g class="conveyor">
+              <path d="M18 338H278L350 391H0Z" fill="#263646" stroke="#8799ab" stroke-width="4"/>
+              <path d="M18 351H278L326 387H21Z" fill="#0d141d"/>
+              <path d="M51 350L94 385M108 350L151 385M165 350L208 385M222 350L265 385" stroke="#657991" stroke-width="5"/>
+              <circle cx="31" cy="394" r="18" fill="#101821" stroke="#8799ab" stroke-width="5"/>
+              <circle cx="320" cy="399" r="18" fill="#101821" stroke="#8799ab" stroke-width="5"/>
+              <path d="M30 394H321" stroke="#c3ccd9" stroke-opacity=".3" stroke-width="2"/>
+            </g>
+
+            <g class="power-core">
+              <circle cx="611" cy="344" r="34" fill="#fff1b8" opacity=".17" filter="url(#soft-glow)"/>
+              <path d="M611 315L626 337L616 337L624 360L597 335L607 335Z" fill="#fff1b8" stroke="#ffb347" stroke-width="3"/>
+              <circle cx="611" cy="344" r="34" fill="none" stroke="#ffb347" stroke-opacity=".55" stroke-width="2" stroke-dasharray="4 7"/>
+            </g>
+
+            <g class="rail-hazard">
+              <path d="M351 398L373 365L395 398L417 365L439 398L461 365L483 398" fill="none" stroke="#75869a" stroke-width="8"/>
+              <path d="M351 398L373 365L395 398L417 365L439 398L461 365L483 398" fill="none" stroke="#d1dae4" stroke-opacity=".7" stroke-width="2"/>
+            </g>
+
+            <g class="robot" transform="translate(370 301)">
+              <ellipse cx="42" cy="101" rx="43" ry="8" fill="#05080c" opacity=".6"/>
+              <path d="M12 42H72L78 86Q42 103 6 86Z" fill="url(#robot-shell)" stroke="#ffcf83" stroke-width="3"/>
+              <path d="M17 47H67V72H17Z" fill="#202b38" stroke="#8c9bad" stroke-width="2"/>
+              <circle cx="31" cy="59" r="5" fill="#55d7e8"/><circle cx="53" cy="59" r="5" fill="#55d7e8"/>
+              <path d="M24 79H60" stroke="#51361e" stroke-width="3" stroke-linecap="round"/>
+              <path d="M9 51L-7 62M75 51L91 62" stroke="#ffb347" stroke-width="9" stroke-linecap="round"/>
+              <path d="M22 87L14 106M62 87L71 106" stroke="#bf7626" stroke-width="10" stroke-linecap="round"/>
+              <path d="M31 42V27M54 42V27" stroke="#ffb347" stroke-width="5"/>
+              <circle cx="31" cy="24" r="6" fill="#ffb347" stroke="#ffda9b" stroke-width="2"/>
+              <circle cx="54" cy="24" r="6" fill="#ffb347" stroke="#ffda9b" stroke-width="2"/>
+              <path d="M18 38Q42 48 66 38" fill="none" stroke="#ffe0a8" stroke-opacity=".65" stroke-width="2"/>
+            </g>
+
+            <g class="trap-mark" aria-hidden="true">
+              <g transform="translate(195 374)">
+                <circle r="23" fill="#38bdf8" fill-opacity=".13" stroke="#38bdf8" stroke-width="2" stroke-dasharray="3 5"/>
+                <path d="M-8 -8L8 8M8 -8L-8 8" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+              </g>
+              <g transform="translate(457 355)">
+                <circle r="23" fill="#38bdf8" fill-opacity=".13" stroke="#38bdf8" stroke-width="2" stroke-dasharray="3 5"/>
+                <path d="M-8 -8L8 8M8 -8L-8 8" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+              </g>
+              <g transform="translate(527 264)">
+                <circle r="23" fill="#38bdf8" fill-opacity=".13" stroke="#38bdf8" stroke-width="2" stroke-dasharray="3 5"/>
+                <path d="M-8 -8L8 8M8 -8L-8 8" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+              </g>
+            </g>
+
+            <path d="M34 430H155" stroke="#ffb347" stroke-width="2" stroke-opacity=".45"/>
+            <text x="34" y="453" fill="#c3ccd9" fill-opacity=".72" font-family="monospace" font-size="12" letter-spacing="2">NO MAP. NO MERCY.</text>
+            <text x="585" y="453" fill="#38bdf8" fill-opacity=".7" font-family="monospace" font-size="11" letter-spacing="1">SIGNAL / QUIET</text>
+          </svg>
+          <div class="scan-control">
+            <button id="scan-toggle" class="scan-button" type="button" aria-controls="trap-scene" aria-pressed="false"><span class="scan-icon" aria-hidden="true">+</span><span>Scan the illustration</span></button>
+            <p id="scan-status" class="scan-status" role="status" aria-live="polite">Optional preview: the hazards are quiet.</p>
+          </div>
+        </div>
+        <figcaption><strong>Illustration / not gameplay</strong> An original interpretation of Trap's scrap-factory escape. Tap Scan to reveal the quiet marks in this marketing scene.</figcaption>
+        <noscript><p class="no-script-note">Scan preview needs JavaScript; the game story and mechanics remain available below.</p></noscript>
+      </figure>
+    </section>
+
+    <section class="section rule-section wrap" id="world" aria-labelledby="rule-title">
+      <div class="section-intro split-intro">
+        <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> The rule</p>
+        <div>
+          <h2 id="rule-title">Every death<br><em>leaves a map.</em></h2>
+          <p class="section-lede">Traps hide in plain sight and spring when your certainty does. A failed run is not a reset to zero: discovered traps stay marked after death, so the factory gradually becomes legible.</p>
+        </div>
+      </div>
+      <dl class="fact-rail" aria-label="Game structure">
+        <div><dt>12</dt><dd>levels</dd></div>
+        <div><dt>03</dt><dd>acts</dd></div>
+        <div><dt>13</dt><dd>trap types</dd></div>
+        <div><dt>09</dt><dd>battery max</dd></div>
+      </dl>
+      <div class="story-grid">
+        <article class="story-card story-card-large">
+          <p class="card-index">01 / LEARN THE ROOM</p>
+          <h3>The floor can be a question.</h3>
+          <p>A false floor can look safe until weight gives it a reason to disappear. A battery can be a gift—or bait that wakes nearby mechanisms. Watch what moves, remember what fired, and let curiosity become a route.</p>
+          <div class="card-rule" aria-hidden="true"><span></span><span></span><span></span></div>
+        </article>
+        <article class="story-card story-card-accent">
+          <p class="card-index">02 / MAKE THE RUN</p>
+          <h3>Knowledge is your speed boost.</h3>
+          <p>Checkpoints hold your charge and your found count. No farming one battery across lives. The clean escape is earned by remembering the room—not by overpowering it.</p>
+          <a class="inline-link" href="#how-to-play">See the loop <span aria-hidden="true">↘</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills" aria-labelledby="skills-title">
+      <div class="wrap">
+        <div class="section-intro split-intro">
+          <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> Battery economy</p>
+          <div>
+            <h2 id="skills-title">Your margin<br><em>has a price.</em></h2>
+            <p class="section-lede">Batteries are score and currency. Spend one to ask the room a question. Spend two to make a mechanism hold its breath.</p>
+          </div>
+        </div>
+        <div class="skill-grid">
+          <article class="skill-card scan-card">
+            <div class="skill-top"><span class="skill-number">01</span><span class="skill-tag">1 battery</span></div>
+            <div class="skill-symbol" aria-hidden="true">⌁</div>
+            <h3>Scan</h3>
+            <p>Reveal hidden traps within a 5.5-cell radius. The mark persists after you die, turning an unfair surprise into usable memory.</p>
+            <div class="skill-meter" aria-label="Cost: one battery"><i></i><i class="empty"></i><i class="empty"></i><i class="empty"></i></div>
+            <p class="skill-note">Cheap on purpose · ask before you commit</p>
+          </article>
+          <article class="skill-card emp-card">
+            <div class="skill-top"><span class="skill-number">02</span><span class="skill-tag">2 batteries</span></div>
+            <div class="skill-symbol" aria-hidden="true">◌</div>
+            <h3>EMP</h3>
+            <p>Freeze mechanisms within 5 cells for 2.6 seconds. Pop-up spikes retract, dart barrels go quiet, and crumble timers stop.</p>
+            <div class="skill-meter" aria-label="Cost: two batteries"><i></i><i></i><i class="empty"></i><i class="empty"></i></div>
+            <p class="skill-note">Passive geometry stays lethal · choose the gap</p>
+          </article>
+        </div>
+        <p class="skill-footnote"><span class="tiny-cross" aria-hidden="true">×</span> Batteries cap at 9. Checkpoints latch your charge and found count; a checkpoint cannot be farmed across lives.</p>
+      </div>
+    </section>
+
+    <section class="section acts-section wrap" aria-labelledby="acts-title">
+      <div class="acts-heading">
+        <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> The factory in three acts</p>
+        <h2 id="acts-title">A way out,<br><em>piece by piece.</em></h2>
+      </div>
+      <div class="act-list">
+        <article class="act-row">
+          <div class="act-no">01</div><div class="act-name"><h3>Scrap Yard</h3><p>Read the language of bait, false floors and first mistakes.</p></div><div class="act-mark" aria-hidden="true">↗</div>
+        </article>
+        <article class="act-row">
+          <div class="act-no">02</div><div class="act-name"><h3>Maintenance Halls</h3><p>Carry your memory into tighter rooms and harder timing.</p></div><div class="act-mark" aria-hidden="true">↗</div>
+        </article>
+        <article class="act-row">
+          <div class="act-no">03</div><div class="act-name"><h3>The Grinder</h3><p>Pull the core, trigger the alarm, and run what you have learned.</p></div><div class="act-mark" aria-hidden="true">↗</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section how-section" id="how-to-play" aria-labelledby="how-title">
+      <div class="wrap">
+        <div class="section-intro split-intro">
+          <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> How to play</p>
+          <div>
+            <h2 id="how-title">Slow down.<br><em>Then go.</em></h2>
+            <p class="section-lede">Two move buttons on the left. Jump on the right. Scan and EMP sit beside it. Hold jump for a higher hop; release early for a short one.</p>
+          </div>
+        </div>
+        <div class="play-layout">
+          <ol class="play-steps">
+            <li><span class="step-no">01</span><div><h3>Observe</h3><p>Remember where the last trap fired, or use Scan before you move. Hidden traps look like harmless scenery.</p></div></li>
+            <li><span class="step-no">02</span><div><h3>Choose</h3><p>Spend a battery to scan a risk, or two to freeze a cluster. The charge is a decision, not decoration.</p></div></li>
+            <li><span class="step-no">03</span><div><h3>Commit</h3><p>Move through the route you have earned. After the power core, hesitation gives the crusher time to close in.</p></div></li>
+          </ol>
+          <aside class="control-panel" aria-label="Touch controls">
+            <p class="card-index">TOUCH LAYOUT / MOBILE</p>
+            <div class="control-map">
+              <div class="control-cluster left-cluster"><span class="control-key">←</span><span class="control-key">→</span><small>move</small></div>
+              <div class="control-cluster right-cluster"><span class="control-key jump-key">↑</span><span class="control-key skill-key">⌁</span><span class="control-key skill-key">◌</span><small>jump · skills</small></div>
+            </div>
+            <p class="control-note">Death respawns you at the last checkpoint you touched. Discovered traps stay discovered.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section release-section wrap" id="release" aria-labelledby="release-title">
+      <div class="release-copy">
+        <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> Release status</p>
+        <h2 id="release-title">The doors are<br><em>not open yet.</em></h2>
+        <p>Trap is coming to Google Play and the Apple App Store. Follow development while we prepare the mobile release.</p>
+      </div>
+      <div class="store-list" aria-label="Store availability">
+        <div class="store-row"><span class="store-icon" aria-hidden="true">▶</span><div><strong>Google Play</strong><small>Android release</small></div><span class="store-status">Coming soon</span></div>
+        <div class="store-row"><span class="store-icon apple-icon" aria-hidden="true">●</span><div><strong>Apple App Store</strong><small>iOS release</small></div><span class="store-status">Coming soon</span></div>
+        <p class="store-note">Download links will appear here when the store listings go live.</p>
+      </div>
+    </section>
+
+    <section class="section faq-section wrap" id="faq" aria-labelledby="faq-title">
+      <div class="faq-head"><p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> Questions, before the alarm</p><h2 id="faq-title">Before<br><em>you jump.</em></h2></div>
+      <div class="faq-list">
+        <details open><summary><span>What is Trap?</span><b aria-hidden="true">+</b></summary><p>Trap is a hidden-trap platformer about a small robot escaping a scrap factory. The room is designed to surprise you once, then reward you for remembering.</p></details>
+        <details><summary><span>How much game is there?</span><b aria-hidden="true">+</b></summary><p>The current design has 12 levels across three acts: Scrap Yard, Maintenance Halls and The Grinder. There are 13 trap types and three challenge goals per level.</p></details>
+        <details><summary><span>What happens when a trap gets me?</span><b aria-hidden="true">+</b></summary><p>You respawn at the last checkpoint you touched. A trap that has fired leaves a faint mark where it hid, and that discovery survives death.</p></details>
+        <details><summary><span>When should I use Scan or EMP?</span><b aria-hidden="true">+</b></summary><p>Scan costs one battery and reveals hidden traps within 5.5 cells. EMP costs two and freezes nearby mechanisms for 2.6 seconds. Passive geometry—like an exposed spike bed—stays dangerous.</p></details>
+        <details><summary><span>When can I play?</span><b aria-hidden="true">+</b></summary><p>Trap is in development. It is planned for Android and iOS, with both the Google Play and Apple App Store releases marked coming soon. No release date has been announced.</p></details>
+      </div>
+    </section>
+
+    <section class="closing-cta wrap" aria-labelledby="closing-title">
+      <div class="closing-rule" aria-hidden="true"><span></span><span></span><span></span></div>
+      <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> Keep a light on</p>
+      <h2 id="closing-title">The factory remembers.<br><em>So should you.</em></h2>
+      <p>Follow the development trail, read the source, and come back when the doors are ready.</p>
+      <a class="button button-primary" href="https://github.com/nguyenvanlamm/cam_bay" rel="noopener">Follow development <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><a class="brand footer-brand" href="./" aria-label="Trap home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span class="brand-word"><strong>TRAP</strong><small>CẠM BẪY</small></span></a><p>Learn the room. Make the run.</p></div>
+      <div class="footer-links"><a href="#world">The rule</a><a href="#how-to-play">How to play</a><a href="#faq">FAQ</a><a href="vi/index.html" lang="vi">Tiếng Việt</a></div>
+      <p class="copyright">© Trap / Cạm Bẫy · Static project site</p>
+    </div>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>

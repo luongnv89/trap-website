@@ -1,0 +1,5 @@
+# This policy applies to the /trap-website/ GitHub Pages project path.
+# It is not a domain-root robots policy; maintain that separately at the domain root.
+User-agent: *
+Allow: /
+Sitemap: https://luongnv.com/trap-website/sitemap.xml

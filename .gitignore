@@ -1,0 +1,11 @@
+# Local/editor noise
+.DS_Store
+*.log
+
+# Optional tooling and browser artifacts
+node_modules/
+coverage/
+playwright-report/
+test-results/
+screenshots/
+.tmp/
