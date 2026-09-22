@@ -1,0 +1,66 @@
+name: Bug report / Báo lỗi
+description: Tell us what broke and how to reproduce it / Cho biết lỗi và cách tái hiện
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Trap. Please do not include passwords, personal data, account identifiers or sensitive logs.
+        Cảm ơn bạn đã giúp cải thiện Trap. Đừng gửi mật khẩu, dữ liệu cá nhân, mã định danh tài khoản hoặc log nhạy cảm.
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened? / Điều gì đã xảy ra?
+      description: Describe the observed result and the level or screen context / Mô tả kết quả thực tế và màn chơi hoặc màn hình liên quan.
+      placeholder: Tell us what you saw / Hãy cho biết bạn đã thấy gì.
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device / Thiết bị
+      description: Device family only; do not include identifiers / Chỉ ghi dòng thiết bị, không ghi mã định danh.
+      placeholder: "Example: iPhone 15 or Pixel 8 / Ví dụ: iPhone 15 hoặc Pixel 8"
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system / Hệ điều hành
+      description: Include the OS version if known / Ghi phiên bản nếu biết.
+      placeholder: "Example: iOS 18 or Android 15 / Ví dụ: iOS 18 hoặc Android 15"
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: App version and build / Phiên bản và build ứng dụng
+      description: Include the version if known; leave blank for website reports / Ghi phiên bản nếu biết; để trống nếu báo lỗi website.
+      placeholder: "Example: 1.0.0+1 / Ví dụ: 1.0.0+1"
+    validations:
+      required: false
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce / Các bước tái hiện
+      description: Give the smallest sequence that makes the issue appear / Ghi chuỗi bước ngắn nhất làm lỗi xuất hiện.
+      placeholder: |
+        1. Open...
+        2. Reach...
+        3. Tap...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result / Kết quả kỳ vọng
+      description: What did you think should happen? / Bạn nghĩ điều gì lẽ ra phải xảy ra?
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional context / Ngữ cảnh thêm
+      description: Add a redacted screenshot or detail only if it is safe to make public / Chỉ thêm ảnh chụp hoặc chi tiết đã xóa dữ liệu riêng tư nếu an toàn để công khai.
+    validations:
+      required: false

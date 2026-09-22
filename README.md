@@ -5,6 +5,14 @@ A dependency-free English/Vietnamese landing site for **Trap**, the hidden-trap 
 - English: <https://luongnv.com/trap-website/>
 - Vietnamese: <https://luongnv.com/trap-website/vi/>
 
+### Public submission pages
+
+| Purpose | English | Vietnamese |
+| --- | --- | --- |
+| Support / issue forms | <https://luongnv.com/trap-website/support/> | <https://luongnv.com/trap-website/vi/support/> |
+| Privacy notice | <https://luongnv.com/trap-website/privacy/> | <https://luongnv.com/trap-website/vi/privacy/> |
+| Changelog | <https://luongnv.com/trap-website/changelog/> | <https://luongnv.com/trap-website/vi/changelog/> |
+
 The store section is intentionally informational: Google Play and Apple App Store are both **coming soon**, with no fabricated download links, dates, prices, ratings, or testimonials.
 
 ## Run locally
@@ -17,7 +25,11 @@ python3 -m http.server 8000
 node scripts/validate.mjs
 ```
 
-The validator checks both HTML documents, local links/assets, bilingual metadata, canonical and hreflang URLs, JSON-LD, the social-card dimensions, sitemap, robots, and the GitHub link. There are no runtime dependencies or third-party trackers.
+The validator checks all eight HTML documents, local links/assets, bilingual metadata, canonical and hreflang URLs, JSON-LD, issue-form templates, the social-card dimensions, sitemap, robots, and the GitHub links. There are no runtime dependencies or third-party trackers.
+
+## App-store follow-up
+
+These support, privacy and changelog URLs are website routes prepared for store submission; linking them from the shipped app and its store listings is a separate integration step outside this static-site batch. Before release, sync the in-app privacy link and Google Play / Apple App Store privacy labels with the current game policy and shipped dependencies. This site is not a full legal, SDK or store-review audit and does not guarantee approval.
 
 ## Deployment
 

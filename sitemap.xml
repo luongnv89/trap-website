@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://luongnv.com/trap-website/</loc>
-  </url>
-  <url>
-    <loc>https://luongnv.com/trap-website/vi/</loc>
-  </url>
+  <url><loc>https://luongnv.com/trap-website/</loc></url>
+  <url><loc>https://luongnv.com/trap-website/vi/</loc></url>
+  <url><loc>https://luongnv.com/trap-website/support/</loc></url>
+  <url><loc>https://luongnv.com/trap-website/vi/support/</loc></url>
+  <url><loc>https://luongnv.com/trap-website/privacy/</loc></url>
+  <url><loc>https://luongnv.com/trap-website/vi/privacy/</loc></url>
+  <url><loc>https://luongnv.com/trap-website/changelog/</loc></url>
+  <url><loc>https://luongnv.com/trap-website/vi/changelog/</loc></url>
 </urlset>

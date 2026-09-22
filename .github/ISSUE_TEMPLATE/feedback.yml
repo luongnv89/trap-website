@@ -1,0 +1,37 @@
+name: Feedback / Phản hồi
+description: Share a clear reaction to the current build / Chia sẻ cảm nhận rõ ràng về bản build hiện tại
+title: "[Feedback] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Public feedback is welcome. Do not include passwords, personal data, account identifiers or sensitive logs.
+        Phản hồi công khai luôn được chào đón. Đừng gửi mật khẩu, dữ liệu cá nhân, mã định danh tài khoản hoặc log nhạy cảm.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area / Khu vực
+      description: What are you reacting to? / Bạn đang phản hồi về phần nào?
+      options:
+        - Level or traps / Màn chơi hoặc bẫy
+        - Controls / Điều khiển
+        - Audio or accessibility / Âm thanh hoặc khả năng tiếp cận
+        - Website or language / Website hoặc ngôn ngữ
+        - Other / Khác
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Your feedback / Phản hồi của bạn
+      description: Tell us what worked, what did not and why / Cho biết điều gì hiệu quả, điều gì chưa và vì sao.
+      placeholder: The moment that stood out was... / Khoảnh khắc nổi bật với tôi là...
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Optional context / Ngữ cảnh tùy chọn
+      description: Include a level or device family only if useful; no identifiers or private data / Chỉ ghi màn chơi hoặc dòng thiết bị nếu hữu ích; không ghi mã định danh hay dữ liệu riêng tư.
+    validations:
+      required: false

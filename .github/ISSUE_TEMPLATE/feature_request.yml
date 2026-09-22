@@ -1,0 +1,31 @@
+name: Feature request / Đề xuất tính năng
+description: Suggest a player-focused improvement / Đề xuất cải tiến có ích cho người chơi
+title: "[Feature] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea. Please explain the player problem before the proposed solution.
+        Cảm ơn bạn về ý tưởng. Hãy giải thích vấn đề của người chơi trước giải pháp đề xuất.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Player problem / Vấn đề của người chơi
+      description: What feels missing, difficult or unclear? / Điều gì còn thiếu, khó hoặc chưa rõ?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement / Cải tiến đề xuất
+      description: Describe the behavior or experience you want / Mô tả hành vi hoặc trải nghiệm bạn muốn có.
+      placeholder: I would like Trap to... / Tôi muốn Trap...
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context and alternatives / Ngữ cảnh và phương án khác
+      description: Include a level, control, accessibility or language context when relevant / Nêu màn chơi, điều khiển, khả năng tiếp cận hoặc ngôn ngữ nếu liên quan.
+    validations:
+      required: false
